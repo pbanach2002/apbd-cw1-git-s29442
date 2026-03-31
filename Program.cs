@@ -22,8 +22,8 @@ try
     Console.WriteLine("----------------------------");
     int min = StatisticsHelper.CalculateMin(numbers);
     Console.WriteLine($"Min: {min}");
-    Console.WriteLine("Processing from main branch...");
-}   
+    Console.WriteLine("Processing merged version");
+}
 catch (Exception ex)
 {
     Console.WriteLine($"Error: {ex.Message}");
