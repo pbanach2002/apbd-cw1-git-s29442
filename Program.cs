@@ -1,6 +1,6 @@
 ﻿using apbd_cw1_git_s29442;
 
-Console.WriteLine("=== Statistics Calculator ===");
+Console.WriteLine("=== STATISTICS APP ===");
 
 try
 {
