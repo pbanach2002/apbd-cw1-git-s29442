@@ -17,6 +17,9 @@ try
     Console.WriteLine("----------------------------");
     Console.WriteLine($"Average: {avg}");
     Console.WriteLine("----------------------------");
+    int max = StatisticsHelper.CalculateMax(numbers);
+    Console.WriteLine($"Max: {max}");
+    
 }
 catch (Exception ex)
 {
