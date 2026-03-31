@@ -13,7 +13,7 @@ try
         .ToArray();
 
     double avg = StatisticsHelper.CalculateAverage(numbers);
-
+    Console.WriteLine("Processing data...");
     Console.WriteLine("----------------------------");
     Console.WriteLine($"Average: {avg}");
     Console.WriteLine("----------------------------");
