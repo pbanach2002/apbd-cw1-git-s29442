@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72f6b25-a67a-432f-ae7d-5b930e6a2f48" name="Changes" comment="" />
+    <list default="true" id="c72f6b25-a67a-432f-ae7d-5b930e6a2f48" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/StatisticsHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StatisticsHelper.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +55,7 @@
     &quot;.NET Project.apbd-cw1-git-s29442.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature-max&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774973105101</updated>
       <workItem from="1774973106938" duration="3241000" />
-      <workItem from="1774982284786" duration="659000" />
+      <workItem from="1774982284786" duration="972000" />
     </task>
     <servers />
   </component>
