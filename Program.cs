@@ -19,7 +19,8 @@ try
     Console.WriteLine("----------------------------");
     int max = StatisticsHelper.CalculateMax(numbers);
     Console.WriteLine($"Max: {max}");
-    
+    int min = StatisticsHelper.CalculateMin(numbers);
+    Console.WriteLine($"Min: {min}");
 }
 catch (Exception ex)
 {
