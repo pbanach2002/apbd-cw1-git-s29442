@@ -20,6 +20,8 @@ try
     int max = StatisticsHelper.CalculateMax(numbers);
     Console.WriteLine($"Max: {max}");
     Console.WriteLine("----------------------------");
+    int min = StatisticsHelper.CalculateMin(numbers);
+    Console.WriteLine($"Min: {min}");
 }
 catch (Exception ex)
 {
