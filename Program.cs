@@ -1,12 +1,20 @@
 ﻿using apbd_cw1_git_s29442;
 
-Console.WriteLine("Enter numbers separated by comma:");
+try
+{
+    Console.WriteLine("Enter numbers separated by comma:");
 
-string input = Console.ReadLine();
-int[] numbers = input.Split(',')
-    .Select(x => int.Parse(x))
-    .ToArray();
+    string input = Console.ReadLine();
 
-double avg = StatisticsHelper.CalculateAverage(numbers);
+    int[] numbers = input.Split(',')
+        .Select(x => int.Parse(x))
+        .ToArray();
 
-Console.WriteLine($"Average: {avg}");
+    double avg = StatisticsHelper.CalculateAverage(numbers);
+
+    Console.WriteLine($"Average: {avg}");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Error: {ex.Message}");
+}
