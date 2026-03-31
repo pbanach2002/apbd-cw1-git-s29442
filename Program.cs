@@ -19,7 +19,7 @@ try
     Console.WriteLine("----------------------------");
     int max = StatisticsHelper.CalculateMax(numbers);
     Console.WriteLine($"Max: {max}");
-    
+    Console.WriteLine("----------------------------");
 }
 catch (Exception ex)
 {
