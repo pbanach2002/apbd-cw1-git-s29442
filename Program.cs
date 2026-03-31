@@ -22,6 +22,7 @@ try
     Console.WriteLine("----------------------------");
     int min = StatisticsHelper.CalculateMin(numbers);
     Console.WriteLine($"Min: {min}");
+    Console.WriteLine("Processing data...");
 }
 catch (Exception ex)
 {
